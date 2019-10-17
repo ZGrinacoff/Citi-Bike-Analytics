@@ -22,7 +22,7 @@ One of the tasks that I wanted to complete for my analysis was a map (spider map
 
 * After SQL query was executed, the entirity of the table was stored in a Pandas DataFrame, columns updated, and length of table checked against SQL query in PostgreSQL to ensure that no data was lost in process.
 
-* Two new DataFrames wer created for both the trip start and end data, with columns being dropped for irrelevent information.
+* Two new DataFrames were created for both the trip start and end data, with columns being dropped for irrelevent information.
 
 * Column names for both DataFrames were renamed to be congruent.
 

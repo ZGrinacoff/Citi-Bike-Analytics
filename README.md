@@ -14,7 +14,7 @@ All Citi Bike Trip History data was collected for these reports as CSV files. Th
 * Once Database and table were set-up and completed, it was now time to access PostgreSQL Server through Tableau to create visualizations and perform analysis.
 
 ### Additional Transformation for Trip Map
-One of the tasks that I wanted to complete for my analysis was a map (spider map) that showcased each trip with a line and dots which would represent a trips start and end points, and would include additional information so that each trip could be clearly visualized. However, additional transformation of the data table was required to complete this endeavor so that each trip would have two rows that separate starting and ending geo-data, and a value that represented whether the row corresponded to the start or end of trip. These steps of which are outlined below:
+One of the tasks that I wanted to complete for my analysis was a map (spider map) that showcased each trip with a line and dots which would represent a trips start and end points, and would include additional information so that each trip could be clearly visualized. However, additional transformation of the data table was required to complete this endeavor so that each trip would have two rows that separate starting and ending geo-data, and a value that represented whether the row corresponded to the start or end of trip. The steps of which are outlined below:
 
 * The original data table was accessed by Python script in Jupyter Notebook (trip_geo_data_transformation.ipynb) via connection to PostgreSQL Database which utilized the psycopg2 library and Pandas DataFrame.
 
